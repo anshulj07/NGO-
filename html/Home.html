@@ -1,0 +1,360 @@
+<html>
+    <style>
+        body
+        {
+            margin: 0;
+        }
+        .backtheme
+        {
+            background: url('img.jpg');
+            height: 600px;
+            background-repeat: no-repeat;    
+            width: 100%
+         
+        }
+        .logo
+        {
+            margin-top: 10px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 999;
+        }
+        .tag
+        {
+            width: 100%;
+            font-size: 50px;
+            padding: 10px;
+            color: white;
+        }
+        .menutheme
+        {
+            background-color: rgba(255,255,255,1);
+            font-size: 15px;
+            width: 10%;
+            text-align: center;
+            
+/*            background-color: rgba(255,255,255,1); */
+        }
+        .menutheme:hover
+        {
+            background-color: rgba(0,0,0,0);
+        }
+/*        .sub-menu-under-ul
+        {
+            display: none;
+            padding: 0px   
+        }
+        .sub-menu-under-li
+        {
+            color: black;
+            display: block;
+            padding: 6px 15px;
+            position: relative;
+            text-align: left;
+            width: 100%;
+        }
+        .sub-menu-li
+        {
+            display: inline-block;
+        }*/
+        a
+        {
+            text-decoration: none;
+        }
+        .backtheme2
+        {
+            margin: 0;
+          background-color: rgba(138,20,22,1);
+          padding-left: 100px;
+          font-family: arial;
+          font-size: 20px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        .marq
+        {
+            font-family: arial;
+            font-size: 15px;
+            padding: 20px;
+        }
+        .scrollheading
+        {
+            text-align: center;
+            font-family: arial;
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .imgscroll
+        {
+            padding-left: 150px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        
+        }
+        .scroll
+        {
+            padding-left: 100px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .heading
+        {
+            padding-left: 50px;
+            padding-top: 15px;
+        }
+        .head
+        {
+            font-family: arial;
+            font-size: 40px;
+            width: 100%;
+            color: white;
+        }
+        .head2
+        {
+            font-family: arial;
+            font-size: 15px;
+            width: 100%;
+            color: white;
+            
+        }
+        .big , .contact-us
+        {
+            padding: 30px 0px;
+            width: 100%;
+            float: left;
+        }
+        .small
+        {
+            width: 50%;
+            color: rgba(0, 0, 0, 1);
+            /*background: #000;*/
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            float: left;
+            position: relative;
+        }
+        .small:hover
+        {
+            color: white;
+            background: #000;
+        }
+        .small > div
+        {
+         padding: 15px;
+         text-align: center;  
+        }   
+        .Section
+        {
+            font-family: arial;
+            font-size: 30px;
+            text-align: center;
+        }
+        .contact a
+        {
+        font-size: 24px;
+        color: #1500ff;
+        }
+        footer
+        {
+            text-align: center;
+            width: 100%;
+            float: left;   
+            font-size: 14px;
+            color: #fff;
+            background: #171717;
+        }
+        img.icon-img
+        {
+        width: 30px;
+        margin-top: -5px;
+        display: inline-block;
+        }
+        .contact{
+	text-align: center;
+        }
+        
+        
+        
+
+   #scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+        </style>
+        <head>
+        <title> <h1>Anshul Foundation<h1> </title>
+        </head>
+        <body>
+            
+            <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+            <div class="backtheme">
+            <header class="logo">
+                <h1 class="tag">&nbsp;&nbsp;Anshul Foundation</h1>
+                        <table width =100%>
+                            <tr>
+                                <td class='menutheme'><a href='#'><b>Home</b></a></td>
+                                <td class='menutheme'><a href="aboutus.html"><b>About Us</b></a></td>
+                                <td class='menutheme'><a href='#'><b>NGO Directory</b></a>
+<!--                                    <ul class='menu-ul'>
+                                        <li class='sub-menu-li'>
+                                            <a href='#'></b>NGO Directory</b></a>
+                                            <ul class='sub-menu-under-ul'>
+                                                <li class='sub-menu-under-li'>
+                                            <a href='#'></b>NGO(State Wise)</b></a>
+                                            <ul class='sub-menu-under-ul'>
+                                                <li class='sub-menu-under-li'>
+                                                    <a href='#'><b>Madhya Pradesh</b></a>
+                                                    <ul class='sub-menu-under-ul'>
+                                                    <li class='sub-menu-under-li'>
+                                                    <li><a href='#'><b>Indore</b></a></li>
+                                                    <li><a href='#'><b>Bhopal</b></a></li>
+                                                    <li><a href='#'><b>Ujjain<b></a></li>
+                                                </li>                    
+                                                    <li><a href='#'><b>Uttar Pradesh<b></a></li>
+                                                    <li><a href='#'><b>Andra Pradesh<b></a></li>
+                                                    <li><a href='#'><b>Jammu Kashmir<b></a></li>
+                                                    <li><a href='#'><b>Bihar<b></a></li>
+                                                    <li><a href='#'>West Bengal<b></a></li>
+                                                    <li><a href='#'><b>Rajasthan<b></a></li>
+                                        </li>
+                                    </ul>-->
+                                </td>
+                                <td  class='menutheme'><a href='search.html'><b>Search NGOs</b></a></td>
+                                <td  class='menutheme'><a href='#'><b>Report</b></a></td>
+                                <td  class='menutheme'><a href='#'><b>Guidelines</b></a></td>
+                                <td  class='menutheme'><a href='#'><b>Circulars</b></a></td>
+                                <td  class='menutheme'><a href='#'><b>Help</b></a></td>
+                                <td  class='menutheme'><a href='#'><b>Apply Grant</b></a></td>
+                                <td  class='menutheme'><a href='#'><b>Blacklisted NGOs</b><a></td>
+                            </tr>
+                        </table>        
+            </header>
+                </div>
+                <div class="heading">
+                    <h1 class="head">Don't let Your Parents to Beg</h1>
+                    <h1 class='head2'><p>Anshul Foundation has been working in India for over 2 years, focusing on alleviating poverty and social exclusion.
+                            We do this through well-planned and comprehensive programmes in health, education, livelihoods and disaster preparedness and response.
+                            We also focus on generating and sharing knowledge with diverse stakeholders to influence sustainable impact at scale.
+                            Our overall goal is the empowerment of childs, women and Mens from poor and marginalised communities, leading to improvement in their lives and livelihoods.
+                            We are part of the Anshul Foundation Confederation working in over 5 cities in India where all people live with dignity and security.
+                        </p></h1>
+                </div>
+            <div class="marq">
+                <marquee><b>Dont hate your parents because it will come back to you as karma</b></marquee>
+                </div>
+            <div class='backtheme2'>
+                <table width="90%">
+                    <tbody>
+                        <tr>
+                            <td class="scroll">
+                                <marquee direction='up' scrollamount = "5">
+                                    "My mom and dad gave their kids the greatest gift of all - the gift of unconditional love.
+                                    They cared deeply about who we would be, and much less about what we would do."<br><br>
+                                    "One of the greatest titles in the world is parent,
+                                    and one of the biggest blessings in the world is to have parents to call mom and dad."<br><br>
+                                     "I am blessed to have Mom and Dad"<br><br>
+                                    "Mom and Dad would stay in bed on Sunday morning,
+                                    but the kids would have to go to church."<br><br>
+                                     "No one was more important than my mom and dad. 
+                                     I know they are watching from a place up in heaven here
+                                     today to make sure all their kids are doing good."<br><br>
+                                    "When moms and dads put their kids in acting class, good luck.
+                                    Because you're just filling them with stuff they don't need yet."<br><br>
+                                </marquee>
+                            </td>
+                            <td class="imgscroll">
+                                <marquee direction="up" scrollamount="4">
+                                <img src="scroll1.jpg"><br><br>
+                                <img src="scroll2.jpg"><br><br>
+                                <img src="scroll3.jpg"><br><br>
+                                <img src="scroll4.jpg"><br><br>
+                                <img src="scroll5.jpg"><br><br>
+                                <img src="scroll6.jpg"><br><br>
+                                </marquee>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+          </div>
+            
+            <div class='big'>
+                <h2 class='Section'>Founders</h2>
+                <div class='small'>
+                    <div>
+                        <h2>Anshul Jain</h2>
+                        <p>hi Everyone My name is Anshul Jain i am the founder of anshul foundaton. We started this foundation 2 years ago. we have this founation currently in 23 cities prresent in India. Our main objective is to empower child, women and men. we provide them all the facilties. We do this through well-planned and comprehensive programmes in health, education, livelihoods and disaster preparedness and response.</p>
+                    </div>
+                </div>
+                <div class='small'>
+                    <div>
+                    <h2>Mayank Sharma</h2>
+                    <p>hi Everyone My name is Mayank Sharma i am the founder of anshul foundaton. We started this foundation 2 years ago. we have this founation currently in 23 cities prresent in India. Our main objective is to empower child, women and men. we provide them all the facilties. We do this through well-planned and comprehensive programmes in health, education, livelihoods and disaster preparedness and response.</p>    
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-us">
+		<h2 class="Section">Contact Us</h2>
+		<div class="contact">
+			<a href="https://api.whatsapp.com/send?phone=7974685693" target="_blank"><img src="logo_whatsapp.png" class="icon-img"> +91 7974685693</a>
+			<br/>
+			<a href="mailto:anshulj07@gmail.com"><img src="email-icon.png" class="icon-img"> anshulj07@gmail.com</a>
+		</div>
+	</div>
+            
+ 
+	<footer>
+		<p class="footer-text">Developed by</p> 
+		<p class="footer-text">Anshul Jain<span class="border-span"></span> Mayank Sharma</p>
+		<p>Copyright 2018</p>
+	</footer>
+            
+                <script>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+    </script>
+        </body>
+    </html>
